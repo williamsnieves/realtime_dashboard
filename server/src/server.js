@@ -25,14 +25,6 @@ const TwitterWrapper = new Twit({
   timeout_ms: 60 * 1000 // optional HTTP request timeout to apply to all requests.
 })
 
-/* const TwitterWrapper = new Twit({
-  consumer_key: 'XpNym32HgtEHXvNOMTnQSTXsW',
-  consumer_secret: 'p7ygf0AQfr6pRSn5blDZCpbJ7Y8ZtXmecNbAjWE2ihK4IH3Eov',
-  access_token: '614749934-dfArHrvsGlzvTHoa5WSiE6MyDli0P4DP21Hx2vd4',
-  access_token_secret: '27fJdWbCJ2wkvCY7bKKgjiaAQ8quFXMYjgjZyGfYlLy3S',
-  timeout_ms: 60 * 1000 // optional HTTP request timeout to apply to all requests.
-}) */
-
 app.disable('x-powered-by')
 app.use(cors())
 app.use(json())
