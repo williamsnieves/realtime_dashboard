@@ -22,7 +22,7 @@
     "morgan": "^1.9.1",
     "socket.io": "^2.3.0",
     "twit": "^2.2.11",
-    "validator": "^10.9.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
